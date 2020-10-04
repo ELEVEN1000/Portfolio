@@ -1,0 +1,29 @@
+@import "header";
+@import "main";
+@import "footer";
+@import "media";
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #20202D;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 945px;
+    width: 95%;
+}
+
+.section {
+    padding-top: 64px;
+    padding-bottom: 92px;
+}
+
+
